@@ -1,0 +1,9 @@
+nome_da_colecao = 'produtos'
+
+# Criação da coleção
+result = client.query(
+    q.create_collection({'name': nome_da_colecao})
+)
+
+# Exibindo o resultado
+print(f"Coleção '{nome_da_colecao}' criada: {result}")
