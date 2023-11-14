@@ -1,4 +1,4 @@
-nome_da_colecao = 'produtos'
+nome_da_colecao = 'nome da coleção'
 
 # Criação da coleção
 result = client.query(
