@@ -1,7 +1,7 @@
 from faunadb import query as q
 from faunadb.client import FaunaClient
 
-client = FaunaClient(secret='fnAFSwNWqYAAQvPaevygUZbdw9jB5JknZ7fmxIfm')
+client = FaunaClient(secret='sua_chave')
 
 def criar_documento(collection_name, data):
     return client.query(
